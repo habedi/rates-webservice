@@ -1,0 +1,15 @@
+digraph G {
+    node [shape=box, style="filled", fillcolor="#ECECEC", fontname="Arial", fontsize=10];
+
+    A [label="build_db_image.sh", shape=box, fillcolor="#B2DFDB"];
+    B [label="start_or_make_db_container.sh", shape=box, fillcolor="#FFCC80"];
+    C [label="stop_db_container.sh", shape=box, fillcolor="#FFAB91"];
+    D [label="destroy_everything.sh", shape=box, fillcolor="#90CAF9"];
+
+    A -> B;
+    B -> C;
+    C -> B;
+    B -> D;
+    C -> D;
+    D -> A;
+}

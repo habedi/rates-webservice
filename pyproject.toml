@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "rates-webservice"
+version = "0.1.0"
+description = "A simple RESTful API for getting average daily pricing for sea transport between ports or regions."
+authors = ["Hassan Abedi <hassan.abedi.t@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pylint = "^3.0.3"
+pytest = "^8.0.1"
+pytest-cov = "^5.0.0"
+pytest-mock = "^3.14.0"
+poetry-plugin-dotenv = "^0.8.3"
+python-dotenv = "^1.0.1"
+pydantic = "^2.6.4"
+dateutils = "^0.6.12"
+flask = "^3.0.2"
+postgres = "^4.0"
+gunicorn = "^22.0.0"
+sqlalchemy = "^2.0.29"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
