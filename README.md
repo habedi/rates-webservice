@@ -1,7 +1,9 @@
 # Rates Webservice
 
 [![Tests](https://github.com/habedi/rates-webservice/actions/workflows/tests.yml/badge.svg)](https://github.com/habedi/rates-webservice/actions/workflows/tests.yml)
-[![Made with Love](https://img.shields.io/badge/Made%20with-Love-red.svg)](https://github.com/habedi/rates-webservice)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python version](https://img.shields.io/badge/Python-%3E=3.10-blue)](https://github.com/habedi/rates-webservice)
+[![CodeFactor](https://www.codefactor.io/repository/github/habedi/rates-webservice/badge)](https://www.codefactor.io/repository/github/habedi/rates-webservice)
 
 This repository includes my solution for the technical task described [here](assets/task_files/README.md). The task
 involves developing a webservice
